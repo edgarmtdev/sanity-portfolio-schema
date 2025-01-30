@@ -26,7 +26,6 @@ export const projectType = defineType({
       ],
       options: {
         hotspot: true,
-
       },
     }),
     defineField({

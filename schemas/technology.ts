@@ -41,5 +41,10 @@ export const technologyType = defineType({
         hotspot: true,
       },
     }),
+    defineField({
+      name: 'url',
+      type: 'url',
+      title: 'URL',
+    }),
   ],
 });
